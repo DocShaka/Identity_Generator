@@ -1,10 +1,20 @@
+import os
+from os import *
+
+system("pip install Faker")
+system("pip install random")
+system("pip install uuid")
+system("pip install secret")
+system("pip install string")
+system("pip install art")
+system("pip install termcolor")
+system("cls")
+
 import secrets
 import string
 import uuid
-import os
 import random
 import string
-import os
 from faker import Faker
 from faker import providers
 from faker.providers import internet
